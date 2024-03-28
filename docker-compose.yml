@@ -16,7 +16,7 @@ services:
       dockerfile: docker/nodejs/Dockerfile
     volumes:
       - ./frontend:/src # ローカルをコンテナ内にマウント
-    command: sh -c "cd src && yarn build && yarn start" #コンテナを立ち上げたときに自動的にbuildする
+    command: sh -c "cd src && yarn add msw --dev  && yarn build && yarn start" #コンテナを立ち上げたときに自動的にbuildする
     ports:
       - "3000:3000"
  
