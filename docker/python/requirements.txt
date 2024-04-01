@@ -5,3 +5,5 @@ pymysql
 pydantic
 strawberry-graphql
 alembic
+SQLAlchemy
+sqlmodel
