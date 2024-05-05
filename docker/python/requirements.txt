@@ -1,9 +1,10 @@
 fastapi
 uvicorn
 sqlalchemy
-pymysql
+PyMySQL
 pydantic
 strawberry-graphql
 alembic
 SQLAlchemy
 sqlmodel
+PyJWT
