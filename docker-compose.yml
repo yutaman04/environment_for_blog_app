@@ -7,6 +7,11 @@ services:
     build:
       context: .
       dockerfile: docker/python/Dockerfile
+    environment:
+      - USER_NAME
+      - USER_ID
+      - GROUP_NAME
+      - GROUP_ID
     ports:
       - 8080:8080
     networks:
@@ -24,6 +29,10 @@ services:
     environment:
       # - CHOKIDAR_USEPOLLING=true
       - WATCHPACK_POLLING=true
+      - USER_NAME
+      - USER_ID
+      - GROUP_NAME
+      - GROUP_ID
     networks:
       - blog-app-net
 
