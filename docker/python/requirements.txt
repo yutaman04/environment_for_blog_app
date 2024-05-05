@@ -7,3 +7,4 @@ strawberry-graphql
 alembic
 SQLAlchemy
 sqlmodel
+PyJWT
