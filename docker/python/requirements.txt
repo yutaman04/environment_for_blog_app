@@ -8,3 +8,4 @@ alembic
 SQLAlchemy
 sqlmodel
 PyJWT
+python-dotenv
