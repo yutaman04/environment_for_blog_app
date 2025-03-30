@@ -9,3 +9,4 @@ SQLAlchemy
 sqlmodel
 PyJWT
 python-dotenv
+aiofiles
