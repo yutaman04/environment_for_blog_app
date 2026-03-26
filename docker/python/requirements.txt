@@ -10,3 +10,4 @@ sqlmodel
 PyJWT
 python-dotenv
 aiofiles
+python-multipart
